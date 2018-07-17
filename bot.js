@@ -7,8 +7,7 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === 'l!') {
-    	message.reply('Ummm...i dnt have any commands. I'm askin kyo if he can give me Nadeko's
-                     instead of me takin from Nekobot which idk how.);
+    	message.reply('Ummm...i dnt have any commands.);
   	}
 });
 
