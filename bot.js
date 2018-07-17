@@ -1,5 +1,3 @@
-const Discord = require('discord.js');
-const client = new Discord.Client();
 
 from discord.ext import commands
 import logging, traceback, sys, discord
@@ -183,8 +181,6 @@ def run_bot():
 
 if __name__ == '__main__':
     run_bot()
-
-});
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
