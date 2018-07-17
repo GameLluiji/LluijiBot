@@ -1,0 +1,2 @@
+# LluijiBot
+Discord Bot
