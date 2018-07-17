@@ -182,5 +182,10 @@ def run_bot():
 if __name__ == '__main__':
     run_bot()
 
+client.on('message', message => {
+    if (message.content === 'ping') {
+    	message.reply('pong');
+  	}
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
