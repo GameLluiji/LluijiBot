@@ -7,7 +7,7 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === 'l!') {
-    	message.reply('Ummm...i dnt have any commands.);
+    	message.reply('Ummm...i dnt have any commands');
   	  	}
 });
 
